@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercury Travel Suite]">
+  <test name="Home Page Tests(failed)">
+    <classes>
+      <class name="com.mercuryTravel.MercuryTravelTestcases">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyUserLoginWithCorrectCredentials"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.mercuryTravel.MercuryTravelTestcases -->
+    </classes>
+  </test> <!-- Home Page Tests(failed) -->
+</suite> <!-- Failed suite [Mercury Travel Suite] -->
