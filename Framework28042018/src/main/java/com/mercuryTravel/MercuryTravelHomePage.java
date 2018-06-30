@@ -41,32 +41,26 @@ public class MercuryTravelHomePage extends BaseSetup {
 
 	@FindBy(partialLinkText = "Welcome,")
 	private WebElement welcomeText;
-	
-	private WebDriver driver;
-	
-	
+
 	public MercuryTravelHomePage(WebDriver driver) {
-		
+
 		super(driver);
-		
-		this.driver= driver;
-		
+
 		PageFactory.initElements(driver, this);
-		
-		
+
 	}
-	
-	public void userLogin(String sUserEmailId, String password) throws Exception{
+
+	public void userLogin(String sUserEmailId, String password) throws Exception {
 		mouseControl.moveToElement(customerLogin);
 		mouseControl.moveToElementAndClick(userLogin);
-		
+
 		textboxControl.setText(userEmailId, sUserEmailId);
 		textboxControl.setText(userPassword, password);
-		
+
 		elementControl.click(loginButton);
 	}
-	
-	public String getWelcomeText() throws Exception{
+
+	public String getWelcomeText() throws Exception {
 		return elementControl.getText(welcomeText);
 	}
 }

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercury Travel Suite]">
-  <test name="Home Page Tests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.mercuryTravel.MercuryTravelTestcases">
+      <class name="test.DemoTestDataProvider">
         <methods>
-          <include name="setup"/>
-          <include name="verifyUserLoginWithCorrectCredentials"/>
-          <include name="cleanUp"/>
+          <include name="printData"/>
         </methods>
-      </class> <!-- com.mercuryTravel.MercuryTravelTestcases -->
+      </class> <!-- test.DemoTestDataProvider -->
     </classes>
-  </test> <!-- Home Page Tests(failed) -->
-</suite> <!-- Failed suite [Mercury Travel Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
