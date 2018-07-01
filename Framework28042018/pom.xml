@@ -70,7 +70,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>src/Sresources/mercuryTravelTestcase.xml</suiteXmlFile>
+						<suiteXmlFile>src/resources/mercuryTravelHomepageTestcases.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

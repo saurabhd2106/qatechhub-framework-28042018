@@ -63,4 +63,10 @@ public class MercuryTravelHomePage extends BaseSetup {
 	public String getWelcomeText() throws Exception {
 		return elementControl.getText(welcomeText);
 	}
+	
+	public void logoutFromTheAplication() throws Exception{
+		mouseControl.moveToElement(welcomeText);
+		
+		
+	}
 }
